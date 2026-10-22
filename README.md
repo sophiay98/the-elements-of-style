@@ -9,17 +9,20 @@ This plugin hands your agent Strunk's guidance whenever it writes documentation,
 ## What's Inside
 
 - **Skill**: `writing-clearly-and-concisely` — when and how to apply Strunk's rules
-- **Reference**: the complete 1918 text, roughly 12,000 tokens
+- **Reference**: Strunk's rules, trimmed to the ones an agent still breaks, roughly 4,000 tokens
 
 The reference covers:
 
-1. **Elementary Rules of Usage** — seven rules of grammar and punctuation
-2. **Elementary Principles of Composition** — eleven rules for clear, forceful writing
-3. **Words and Expressions Commonly Misused** — an alphabetical guide to usage pitfalls
+1. **Elementary Rules of Usage** — the grammar and punctuation rules, most reduced to a line
+2. **Elementary Principles of Composition** — eleven rules for clear, forceful writing, with Strunk's examples
+3. **Keep Code Out of Prose** — one rule Strunk never needed
+4. **Overused Words** — a table of words an agent reaches for too often
+
+The untrimmed 1918 text is in `elements-of-style.html` at the repository root.
 
 ## Usage
 
-Your agent invokes `writing-clearly-and-concisely` when it writes prose. The skill lists every rule at a glance, warns that the reference costs about 12,000 tokens, and suggests handing a draft to a subagent when context runs short. It opens the full reference only while writing or editing.
+Your agent invokes `writing-clearly-and-concisely` when it writes prose. The skill lists every rule at a glance and opens the reference while writing or editing.
 
 ## Installing
 

@@ -5,15 +5,9 @@ description: Apply Strunk's timeless writing rules to ANY prose humans will read
 
 # Writing Clearly and Concisely
 
-## Overview
-
-William Strunk Jr.'s *The Elements of Style* (1918) teaches you to write clearly and cut ruthlessly.
-
-**WARNING:** `elements-of-style.md` consumes ~12,000 tokens. Read it only when writing or editing prose.
+William Strunk Jr.'s *The Elements of Style* (1918), trimmed to the rules an agent still breaks. Read `elements-of-style.md` whenever you write or edit prose for a human.
 
 ## When to Use This Skill
-
-Use this skill whenever you write prose for humans:
 
 - Documentation, README files, technical explanations
 - Commit messages, pull request descriptions
@@ -21,24 +15,12 @@ Use this skill whenever you write prose for humans:
 - Reports, summaries, or any explanation
 - Editing to improve clarity
 
-**If you're writing sentences for a human to read, use this skill.**
-
-## Limited Context Strategy
-
-When context is tight:
-1. Write your draft using judgment
-2. Dispatch a subagent with your draft and `elements-of-style.md`
-3. Have the subagent copyedit and return the revision
-
 ## All Rules
 
 ### Elementary Rules of Usage (Grammar/Punctuation)
 1. Form possessive singular by adding 's
 2. Use comma after each term in series except last
-3. Enclose parenthetic expressions between commas
-4. Comma before conjunction introducing co-ordinate clause
-5. Don't join independent clauses by comma
-6. Don't break sentences in two
+3–6. Join complete statements with a period, not a comma or semicolon; commas around a parenthetic expression come in pairs
 7. Participial phrase at beginning refers to grammatical subject
 
 ### Elementary Principles of Composition
@@ -49,14 +31,13 @@ When context is tight:
 12. **Use definite, specific, concrete language**
 13. **Omit needless words**
 14. Avoid succession of loose sentences
-15. Express co-ordinate ideas in similar form
+15. **Express co-ordinate ideas in similar form**
 16. **Keep related words together**
-17. Keep to one tense in summaries
+17. Keep to one tense in summaries; say once that what follows is summary
 18. **Place emphatic words at end of sentence**
 
-### Section V: Words and Expressions Commonly Misused
-Alphabetical reference for usage questions
+### Keep Code Out of Prose
+Name an identifier only when the reader has to go there. Commands and snippets go in code blocks.
 
-## Bottom Line
-
-Writing for humans? Read `elements-of-style.md` and apply the rules. Low on tokens? Dispatch a subagent to copyedit with the guide.
+### Overused Words
+A short table of words an agent reaches for too often: *very*, *certainly*, *interesting*, *literally*, *so*, *respectively*, *while*, and others.
