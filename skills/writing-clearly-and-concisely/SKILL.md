@@ -36,8 +36,5 @@ William Strunk Jr.'s *The Elements of Style* (1918), trimmed to the rules an age
 17. Keep to one tense in summaries; say once that what follows is summary
 18. **Place emphatic words at end of sentence**
 
-### Keep Code Out of Prose
-Name an identifier only when the reader has to go there. Commands and snippets go in code blocks.
-
 ### Overused Words
 A short table of words an agent reaches for too often: *very*, *certainly*, *interesting*, *literally*, *so*, *respectively*, *while*, and others.

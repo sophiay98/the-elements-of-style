@@ -15,8 +15,7 @@ The reference covers:
 
 1. **Elementary Rules of Usage** — the grammar and punctuation rules, most reduced to a line
 2. **Elementary Principles of Composition** — eleven rules for clear, forceful writing, with Strunk's examples
-3. **Keep Code Out of Prose** — one rule Strunk never needed
-4. **Overused Words** — a table of words an agent reaches for too often
+3. **Overused Words** — a table of words an agent reaches for too often
 
 The untrimmed 1918 text is in `elements-of-style.html` at the repository root.
 

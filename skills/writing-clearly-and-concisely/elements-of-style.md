@@ -257,10 +257,6 @@ The other prominent position in the sentence is the beginning. Any element in th
 
 The principle that the proper place for what is to be made most prominent is the end applies equally to the words of a sentence, to the sentences of a paragraph, and to the paragraphs of a composition.
 
-## IV. Keep Code Out Of Prose
-
-Name a file, function, flag, or identifier only when the reader has to go there, at most one per sentence and two per paragraph. Describe the rest in words. A command, a snippet, or an error message goes in a fenced code block, not in a sentence.
-
 ## V. Overused Words
 
 | Word | Fault | Fix |
